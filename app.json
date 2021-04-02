@@ -1,0 +1,12 @@
+{
+  "name": "lifepoints",
+  "displayName": "lifepoints",
+  "expo": {
+    "name": "lifepoints",
+    "slug": "lifepoints",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
