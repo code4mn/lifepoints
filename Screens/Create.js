@@ -1,18 +1,3 @@
-// import React from "react";
-// import { StyleSheet, Text, View } from "react-native";
-// import Icon from "react-native-vector-icons/Fontisto";
-// const CreateScreen = () => {
-//   return (
-//     <View>
-//       <View>
-//         <Icon name="female" size={30} color="#4F8EF7" />
-//       </View>
-//     </View>
-//   );
-// };
-// export default CreateScreen;
-
-// //
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import {
@@ -230,28 +215,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 15,
   },
-  // logo_uper: {
-  //   height: height_logo * 1.7,
-  //   width: height_logo * 1.7,
-  //   borderRadius: height_logo,
-  //   borderColor: "#24244B",
-  //   borderWidth: 2,
-  //   justifyContent: "center",
-  //   alignSelf: "center",
-  //   marginTop: 30,
-  // // },
-  // logo_dot: {
-  //   height: 0.5,
-  //   width: 0.5,
-  // },
-  // linearGradient: {
-  //   height: 8,
-  //   width: 8,
-  //   left: 103,
-  //   top: 12,
-  // },
   input_container: {
-    // backgroundColor: "red",
     margin: 40,
     marginBottom: 0,
     marginTop: 10,
@@ -271,7 +235,7 @@ const styles = StyleSheet.create({
   action: {
     flexDirection: "row",
     width: "100%",
-    // marginTop: 18,
+
     borderBottomColor: "#181835",
     borderBottomWidth: 3,
     paddingBottom: 5,
@@ -291,7 +255,6 @@ const styles = StyleSheet.create({
     marginTop: 13,
     marginLeft: 30,
     width: 40,
-    // marginLeft: 100,
   },
   send_text: {
     color: "white",
@@ -334,10 +297,7 @@ const styles = StyleSheet.create({
     width: height_logo,
     marginTop: 10,
   },
-  camera: {
-    // height: 20,
-    // width: 20,
-  },
+
   profile_uper: {
     justifyContent: "center",
     alignContent: "center",
@@ -350,7 +310,7 @@ const styles = StyleSheet.create({
   },
   gender_male: {
     padding: 10,
-    // paddingTop: 15,
+
     margin: 10,
     borderColor: "#5098F2",
     borderRadius: 50,
@@ -359,7 +319,7 @@ const styles = StyleSheet.create({
   },
   gender_female: {
     padding: 10,
-    // paddingTop: 15,
+
     margin: 10,
     borderColor: "#171732",
     borderRadius: 50,

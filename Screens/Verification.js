@@ -48,7 +48,6 @@ const VerificationScreen = ({ navigation }) => {
             davidwalb@gmail.com
           </Text>
           {/* first input */}
-          {/* <Text style={styles.input_text}>EMAIL</Text> */}
           <View>
             <View style={styles.action}>
               <View style={styles.OtpInput}>
@@ -178,7 +177,6 @@ const styles = StyleSheet.create({
     top: 12,
   },
   input_container: {
-    // // backgroundColor: "red",
     margin: 40,
     marginTop: 10,
   },
@@ -194,14 +192,6 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     marginBottom: 5,
   },
-  // action: {
-  //   flexDirection: "row",
-  //   width: "100%",
-  //   // marginTop: 18,
-  //   borderBottomColor: "#181835",
-  //   borderBottomWidth: 3,
-  //   paddingBottom: 5,
-  // },
   forgot_header: {
     flexDirection: "row",
     marginTop: 35,
@@ -217,7 +207,6 @@ const styles = StyleSheet.create({
     marginTop: 13,
     marginLeft: 30,
     width: 40,
-    // marginLeft: 100,
   },
   send_text: {
     color: "white",

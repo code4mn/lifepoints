@@ -10,6 +10,8 @@
   "dependencies": {
     "@react-native-clipboard/clipboard": "^1.7.0",
     "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "@react-navigation/material-bottom-tabs": "^5.3.15",
     "@react-navigation/native": "^5.9.3",
     "@react-navigation/stack": "^5.14.3",
     "expo": "~40.0.0",
@@ -23,6 +25,8 @@
     "react-native-feather": "^1.0.2",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-otp-inputs": "^7.0.3",
+    "react-native-paper": "^4.7.2",
+    "react-native-progress-circle": "^2.1.0",
     "react-native-reanimated": "^1.13.3",
     "react-native-safe-area-context": "^3.1.9",
     "react-native-screens": "^2.15.2",
